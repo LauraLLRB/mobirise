@@ -2,7 +2,7 @@
   "settings": {
     "currentPage": "index.html",
     "versionFirst": "3.5.2",
-    "uniqCompNum": 43,
+    "uniqCompNum": 62,
     "versionPublish": "3.9.2",
     "name": "ybrtest",
     "theme": {
@@ -140,7 +140,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">YELLOW BRICK ROAD</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#content5-0\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-0\">SERVICES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">STATISTICS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-1\">ARTICLES</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"FAQ.html\">FAQ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"PRICING.html\">PRICING</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"CONTACTUS.html\">CONTACT US</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#content5-0\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-0\">SERVICES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials4-0\">TESTIMONIALS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">ANATOMY</a><div class=\"dropdown open\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"index.html#features3-1\" data-toggle=\"dropdown-submenu\">ARTICLES</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Constipation</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Bloating.html\">Bloating</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Fibre</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">STATISTICS</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"FAQ.html\">FAQ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"PRICING.html\">PRICING</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"CONTACTUS.html\">CONTACT US</a></li>"
         },
         {
           "_inherit": "content5",
@@ -168,7 +168,7 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.4",
+            "overlayOpacity": "0.1",
             "overlayColor": "#000000",
             "showTitle": true,
             "showCaption": false
@@ -177,10 +177,230 @@
           "caption": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>"
         },
         {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1p",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "2",
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "FAQ",
+          "meta": "By John Smith posted July 20, 2016"
+        },
+        {
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extToggle1",
+          "_styles": {
+            "H1": {
+              "color": "#232323"
+            }
+          },
+          "_anchor": "extToggle1-1c",
+          "_params": {
+            "tabs": "3",
+            "paddingTop": 2,
+            "paddingBottom": "1",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extAccordion1_bg.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true
+          },
+          "title": "Colonics",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseOneextToggle1-1c\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>What is Colon Hydrotherapy?</a>",
+          "text1": "<p>A Colonic is a way of drawing toxins and gas out of the body through the large intestine known as the colon. Purified water is gently introduced into the colon at a smooth, steady rate in order to wash out material, mucous, and other debris.</p>",
+          "title2": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseTwoextToggle1-1c\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">What are the benefits?</a>",
+          "text2": "<p>The most common benefits--which can occur even after just one Colonic--are an increase in energy, reduced bloating, feeling lighter, less gas, improved digestion, a clearer complexion, feeling happier, reduced mental and emotional stress, clearer thinking, increased awareness of the body, and a rebalancing of the system, which allows the body to start undoing symptoms and effects of chronic illnesses. Other benefits experienced through Colonics include the elimination of headaches, some types of lower back pain, easing of allergies, asthma, menstrual pain, and acne and other skin problems. Colonics are also helpful for easing symptoms of and shifting more quickly from the body; colds, the flu and food poisoning.</p>",
+          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseThreeextToggle1-1c\" aria-expanded=\"true\" aria-controls=\"collapseThree\">Why should I have a Colonic?</a>",
+          "text3": "<p><span style=\"font-size: 1rem; line-height: 1.5;\">If you are trying to improve your health and energy level, cleansing your body is the first step. Many people take numerous supplements, try quick-fix programs or make wild dietary changes in an effort to rejuvenate their system. Unfortunately, when the body is already overwhelmed it cannot absorb nutrients properly nor can it easily release old toxins readily due to the congestion. Once the system is clearer, supplements can be used much more readily by the body. It is also much easier to switch to a more suitable diet, and shift toxins out from other areas in the body.</span><br></p><p><br></p><p>We use our colon everyday and we need to care for and maintain it like we care for other parts of our body. We cleanse the outside of our bodies regularly; we also need to cleanse the inside of our bodies.</p>",
+          "title4": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">This is a accordion Title 4</a>",
+          "text4": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">This is a accordion Title 5</a>",
+          "text5": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">This is a accordion Title 6</a>",
+          "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>"
+        },
+        {
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extToggle1",
+          "_anchor": "extToggle1-1i",
+          "_params": {
+            "tabs": "5",
+            "paddingTop": 2,
+            "paddingBottom": "1",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extAccordion1_bg.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true
+          },
+          "title": "Common Questions",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseOneextToggle1-1i\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>What is the difference between an enema and a Colonic?</a>",
+          "text1": "<p>A healthy colon is about five to six feet long. During a Colonic the entire colon is gently flushed with purified water so that the whole colon is cleansed in this process. The water used in an enema spends time in the Rectum and sigmoid colon only, not reaching and focusing on the ascending colon, transverse colon, and descending colon. A properly delivered Colonic helps to tone and stimulate the intestinal walls, leading to better functioning of the colon while an enema helps with immediate relief.</p>",
+          "title2": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseTwoextToggle1-1i\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">Will I lose weight?</a>",
+          "text2": "<p>Colon Therapy is not a weight loss program; however many clients lose excess pounds as they cleanse their bodies since weight gain is frequently caused by toxicity and imbalances in the system. Often in women, lower abdomen distention (pot bellies) can be caused or exascerbated by bloating or a full transverse colon that drops below the belly button. Once cleansed, the Colonic Hydrotherapy session helps to re-train the colon back to the natural functioning the body wants and needs.</p>",
+          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseThreeextToggle1-1i\" aria-expanded=\"true\" aria-controls=\"collapseThree\">Is it painful?</a>",
+          "text3": "<p>A poperly administer Colonic is not painful. Although there may be some discomfort initially, it is brief. Some people may observe a feeling of intensity during shifting of congestion from the body during the process. Usually clients describe the treatment as relaxing, enlightening, and relieving. Our treatment centre has been in practice for over thirty years, and our staff appropriately trained and sensitive. We practice with the utmost respect for hygiene, safety, privacy, and comfort.</p>",
+          "title4": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseFourextToggle1-1i\" aria-expanded=\"true\" aria-controls=\"collapseFour\">Will I become reliant on Colonics?</a>",
+          "text4": "<p>Colonics strenghten the digestive system and help tone the colon. Many find their bowel will get stronger as a result. Finding the right diet and lifestyle to optimize your health will complement the treatment and encourage deeper and more lasting improvements.</p>",
+          "title5": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseFiveextToggle1-1i\" aria-expanded=\"true\" aria-controls=\"collapseFive\">Will it wash out all the good bacteria?</a>",
+          "text5": "<p>Only filtered water is introduced into the colon. Water is normally absorbed in the colon as part of the body's elimination process. We also provide a probiotic to take right after your session because we have shifted congestion, and now your body is better able to gain healthy levels of bacteria. .</p>",
+          "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">This is a accordion Title 6</a>",
+          "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>"
+        },
+        {
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extToggle1",
+          "_anchor": "extToggle1-1j",
+          "_params": {
+            "tabs": "6",
+            "paddingTop": 2,
+            "paddingBottom": "1",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extAccordion1_bg.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true
+          },
+          "title": "How a Session Works",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseOneextToggle1-1j\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>How to prepare?</a>",
+          "text1": "<p>We recommend that you eat light, healthy foods the day of your Colonic–-before and after. Please avoid coffee, caffeine, sugar and alcohol for the entire day, as these are very hard on the system, and disrupt the body's natural rejuvenation process. It is better not to eat, or drink anything except water for 2-3 hours before the Colonic. Please note that while you can drink water before your session, you do not need to drink extra water during the 2-3 hours before the session as this may result in the need to stop the session for the client to visit the washroom to urinate. Following these suggestions will optimize your results because the body makes digestion a priority over elimination. It also helps to drink lots of water the day before your appointment. &nbsp;</p>",
+          "title2": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseTwoextToggle1-1j\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">What system is used?</a>",
+          "text2": "<p>A Gravity based Colonic has a long history, is gentle and effective, working with the body to retrain the colon and allow the body to take over. Yellow Brick Road practices approximately 30 minute water times, as the goal is to work with the body and natural functioning of the colon. A single-use disposable proctoscope and tubing are included in the session price.&nbsp;</p>",
+          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseThreeextToggle1-1j\" aria-expanded=\"true\" aria-controls=\"collapseThree\">What happens during a session?</a>",
+          "text3": "<p>You undress from the waist down in a private therapy room. Then you lay on the treatment table covered with a sheet. The Colonic Hydrotherapist will explain what is happening throughout the session, and you are welcome to ask quetions. After turning onto your side, a single-use disposalbe proctoscope is inserted into your rectum. Only about one and a half-inches of the instrument is placed in your body. Next two tubes are attached to the section of the proctoscope on the outside of your body to create an enclosed system. One tube carries water into the large intestine and the other tube carries the water and unwanted debris out of the body. Purified water is gently flushed in and out of the colon. During the session the Colon Therapist will use different techniques to assist the body's process. For example, they may incorporate abdominal massage to stimulate the release of toxins and better understand the health of your colon. A trained Colon Hydrotherapist is with you throughout the entire procedure and you are welcome to ask questions at any point. At the end of the session you go into a private washroom directly attached to the room to redress</p>",
+          "title4": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseFourextToggle1-1j\" aria-expanded=\"true\" aria-controls=\"collapseFour\">Can I see what comes out?</a>",
+          "text4": "<p>Although it may not sound pleasant at first to observe and it is not required by the client to do so, many find it fascinating that during the session they are able to see through the clear tubbing what is releasing and how it corresponds to what they feel. It also allows the Therapists to assess the health or imbalance of the client's digestive system in regards to the following: digestive functioning; gas and bloating patterns; toxins being stored in the body; mucus production; candida/yeast; and whether food is being broken down properly. As you go through the session the Therapist will be observing the patterns and explaining and giving feedback as to how this relates to the functioning of your digestive system and health of your body as a whole. &nbsp;</p>",
+          "title5": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseFiveextToggle1-1j\" aria-expanded=\"true\" aria-controls=\"collapseFive\">What should I do afterward?</a>",
+          "text5": "<p>It is better to eat healthy and easily digestible foods for the rest of the day. For example, you may choose to avoid fried or processed foods and red meat, as well as common allergens such as wheat and dairy. Please avoid coffee, caffeine, alcohol and sugar foods for the whole day. It is also good to avoid any foods that you know irritate your system. If you wish to eat straight after treatment, fresh vegetable juice or soup is ideal.&nbsp;</p>",
+          "title6": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseSixextToggle1-1j\" aria-expanded=\"true\" aria-controls=\"collapseSix\">Is there anything extra I can do?</a>",
+          "text6": "<p>A completely optional mixture of Psyllium and Bentonite Clay can be taken several days before your treatment to break-up and release old debris. Mix 1 tablespoon of each in 8 oz. water, stir and drink once a day. Make sure you are drinking at least 8 glasses of water per day if you are taking this mixture. Both Psyllium and Bentonite can be found at many health food stores. You can also wait until after your first appointment to assess how you feel and speak with the Therapist about your specific needs. If you undergoing a more extensive preparation for your session, it is also recommended to book your appointment in advance to ensure we are able to offer a convenient time.</p>"
+        },
+        {
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extToggle1",
+          "_anchor": "extToggle1-1o",
+          "_params": {
+            "tabs": "4",
+            "paddingTop": 2,
+            "paddingBottom": "1",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extAccordion1_bg.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true
+          },
+          "title": "Other Times to Come in",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseOneextToggle1-1o\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>How many sessions will I need?</a>",
+          "text1": "<p>Many clients feel improvement after one or two Colonic, but one Colonic will not solve a bowel problem, chronic health issue or release all the toxins built up over years. The average person will benefit from a series of regular colonics over a period of a few weeks. Someone with a more serious problem such as lifelong constipation will likely benefit from a more extended program combined with diet and lifestyle changes to find more permanent relief.</p><p><br></p><p>Our experience with Colonic Hydrotherapy at The Yellow Brick Road is that while there are some similar patterns that occur, everyone’s needs and goals are different. Your Colonic Hydrotherapist can provide feedback to help you develop your own personal program and assess how many Colonics you should have.&nbsp;</p><p><br></p><p>Our Colon Therapists are experienced Holistic Practitioners. They will help you with other lifestyle issues such as diet and exercise, as well as providing referrals to other therapeutic modalities. These suggestions can also greatly accelerate the release of toxins and healing of your body while receiving Colonics.</p>",
+          "title2": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseTwoextToggle1-1o\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">Should I have a session while I'm doing a cleanse or detox?</a>",
+          "text2": "<p>Many people also get Colonics during a fasting program to accelerate the release of toxins from the body. Colonics are a great preparation and support for other cleanses such as a liver or kidney detox. Having a Colonic can flush out toxins released from deeper in the body that may still be sitting in your colon. This will prevent them from being reabsorbed by the body and often assists with 'detox symptoms'. Our Colon Therapists are very knowledgeable about a wide variety of detox programs.</p>",
+          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseThreeextToggle1-1o\" aria-expanded=\"true\" aria-controls=\"collapseThree\">Can Colonics help with Colonoscopy preparation?</a>",
+          "text3": "<p>A colonoscopy is a procedure that allows a trained Doctor to see inside the colon and rectum. This examination can help detect inflamed tissue, ulcers, polyps and abnormal growths. For accurate results, the colon walls should be as free of debris as possible. Your Doctor will prescribe specific preparations for this procedure. Some people are able to use 2-3 sessions of Colonic Hydrotherapy as a part of this preparation process as it is both a gentle and effective way to cleanse the colon. For more information watch this short <a href=\"https://youtu.be/axjWYmgDgv4\" target=\"_blank\">youtube</a>. Speak with your Doctor first to discuss the possibility of using Colonics as part of the preparation process.&nbsp;</p>",
+          "title4": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseFourextToggle1-1o\" aria-expanded=\"true\" aria-controls=\"collapseFour\">Will it affect other therapies I am receiving?</a>",
+          "text4": "<p>Colonic Hydrotherapy can be done at the same time as other therapies and will usually enhance the effect of other things you do to improve your health.</p>",
+          "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">This is a accordion Title 5</a>",
+          "text5": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">This is a accordion Title 6</a>",
+          "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>"
+        },
+        {
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extToggle1",
+          "_anchor": "extToggle1-1m",
+          "_params": {
+            "tabs": "2",
+            "paddingTop": 2,
+            "paddingBottom": "1",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extAccordion1_bg.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true
+          },
+          "title": "YBR Policy",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseOneextToggle1-1m\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>Cancellation Policy?</a>",
+          "text1": "<p>If you wish to reschedule or cancel your appointment you may do so with no questions asked and without penalty with 24 hours notice. This gives us an opportunity to offer the time to other clients who may need it. Please call rather than email if you are cancelling with less than 24 hours notice so that we are sure to hear the message as soon as possible as it may be outside of reception hours. If we are assisting other clients, please leave a message. The answering machine will log the time you called so you will not be penalized if you do not reach us directly when giving 24 hours notice.</p><p><br></p><p>The fee for late cancellations is half the regular appointment cost. Many businesses charge the full amount. We absorb the other half lost from the missed appointment as we may not be able to fill the appointment without 24 hours notice. If two late cancellations occur consecutively, we request that the fees be paid in advance of your next booking. This can be done in person or by providing your credit card number over the phone. Your credit card information will be destroyed immediately after use unless we have been given permission to store it.&nbsp;</p>",
+          "title2": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseTwoextToggle1-1m\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">Running late to your appointment?</a>",
+          "text2": "<p>If it is possible to do so as we realize you may be driving and not able to pull over, please call the office to advise us of your estimated time of arrival. We book sessions back-to-back and do our best to start on time so that our clients can better arrange their day and commitments. Lateness of 15 minutes or more may mean that there is not enough time to conduct your session. A late cancellation fee of half the appointment cost will apply.&nbsp;</p>",
+          "title3": "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Chang",
+          "text3": "<p>Key differences from traditional builders:<br>* Minimalistic, extremely <strong>easy-to-use</strong> interface<br>* <strong>Mobile</strong>-friendliness, latest website blocks and techniques \"out-the-box\"<br>* <strong>Free</strong> for commercial and non-profit use</p>",
+          "title4": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">This is a accordion Title 4</a>",
+          "text4": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">This is a accordion Title 5</a>",
+          "text5": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">This is a accordion Title 6</a>",
+          "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>"
+        },
+        {
           "_name": "testimonials2",
           "testimonial": [
             {
-              "text": "<p>A Colonic is a way of drawing toxins and gas out of the body through the large intestine known as the colon.  Purified water is gently introduced into the colon at a smooth, steady rate in order to wash out material, mucous, and other debris.</p>",
+              "text": "<p>We're happy to hear from you! Please feel free to <a href=\"CONTACTUS.html\">contact us</a> if you need further information.</p>",
               "media": {
                 "image": {
                   "src": "@THEME_PATH@/components/_images/face3.jpg",
@@ -190,294 +410,14 @@
                   "active": true
                 }
               },
-              "authorName": "What is Colonic Hydrotherapy?",
+              "authorName": "That didn't answer my question...",
               "authorBio": "User"
-            },
-            {
-              "text": "<p>The most common benefits--which can occur even after just one Colonic--are an increase in energy, reduced bloating, feeling lighter, less gas, improved digestion, a clearer complexion, feeling happier, reduced mental and emotional stress, clearer thinking, increased awareness of the body, and a rebalancing of the system, which allows the body to start undoing symptoms and effects of chronic illnesses. <span style=\"font-size: 1.125rem; line-height: 2;\">Other benefits experienced through Colonics include the elimination of headaches, some types of lower back pain, easing of allergies, asthma, menstrual pain, and acne and other skin problems.  Colonics are also helpful for easing symptoms of and shifting more quickly from the body; colds, the flu and food poisoning.</span></p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face1.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "What are the benefits of Colonics?",
-              "authorBio": "User"
-            },
-            {
-              "text": "If you are trying to improve your health and energy level, cleansing your body is the first step. Many people take numerous supplements, try quick-fix programs or make wild dietary changes in an effort to rejuvenate their system. Unfortunately, when the body is already overwhelmed it cannot absorb nutrients properly nor can it easily release old toxins readily due to the congestion. Once the system is clearer, supplements can be used much more readily by the body. It is also much easier to switch to a more suitable diet, and shift toxins out from other areas in the body.<div><span style=\"font-size: 1.125rem; line-height: 2;\"><br></span></div><div><span style=\"font-size: 1.125rem; line-height: 2;\">We use our colon everyday and we need to care for and maintain it like we care for other parts of our body. We cleanse the outside of our bodies regularly; we also need to cleanse the inside of our bodies.</span><br></div>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Why a Colonic?",
-              "authorBio": "User"
-            },
-            {
-              "text": "A Gravity based Colonic has a long history, is gentle and effective, working with the body to retrain the colon and allow the body to take over. &nbsp;Yellow Brick Road practices approximately 30 minute water times, as the goal is to work with the body and natural functioning of the colon. A single-use disposable proctoscope and tubing are included in the session price.&nbsp;",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "What technology do you use?",
-              "authorBio": "Developer"
-            },
-            {
-              "text": "<p>You undress from the waist down in a private therapy room.  Then you lay on the treatment table covered with a sheet.  The Colonic Hydrotherapist will explain what is happening throughout the session, and you are welcome to ask quetions.  After turning onto your side, a single-use disposalbe proctoscope is inserted into your rectum.  Only about one and a half-inches of the instrument is placed in your body.&nbsp;<span style=\"font-size: 1.125rem; line-height: 2;\">Next two tubes are attached to the section of the proctoscope on the outside of your body to create an enclosed system.  One tube carries water into the large intestine and the other tube carries the water and unwanted debris out of the body.  Purified water is gently flushed in and out of the colon. During the session the Colon Therapist will use different techniques to assist the body's process.  For example, they may incorporate abdominal massage to stimulate the release of toxins and better understand the health of your colon.  A Certified Colon Therapist is with you throughout the entire procedure and you are welcome to ask questions at any point. At the end of the session you go into a private washroom directly attached to the room to redress.</span></p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "What happens during a session?",
-              "authorBio": "Developer"
-            },
-            {
-              "text": "<p>Colon Therapy is not a weight loss program; however many clients lose excess pounds as they cleanse their bodies since weight gain is frequently caused by toxicity and imbalances in the system. Often in women, lower abdomen distention (pot bellies) can be caused or exascerbated by bloating or a full transverse colon that drops below the belly button. Once cleansed, the Colonic Hydrotherapy session helps to re-train the colon back to the natural functioning the body wants and needs.</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Will I lose weight?",
-              "authorBio": "Developer"
-            },
-            {
-              "text": "<p>A healthy colon is about five to six feet long.  During a Colonic the entire colon is gently flushed with purified water so that the whole colon is cleansed in this process.  The water used in an enema spends time in the Rectum and sigmoid colon only, not reaching and focusing on the ascending colon, transverse colon, and descending colon. A properly delivered Colonic helps to tone and stimulate the intestinal walls, leading to better functioning of the colon while an enema helps with immediate relief.</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "What is the difference between a Colonic and an enema?",
-              "authorBio": "Developer"
-            },
-            {
-              "text": "<p>A poperly administer Colonic is not painful.  Although there may be some discomfort initially, it is brief. Some people may observe a feeling of intensity during shifting of congestion from the body during the process. Usually clients describe the treatment as relaxing, enlightening, and relieving. Our treatment centre has been in practice for over thirty years, and our staff appropriately trained and sensitive. We practice with the utmost respect for hygiene, safety, privacy, and comfort.</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Is it painful?",
-              "authorBio": "Developer"
-            },
-            {
-              "text": "<p>Colonics strenghten the digestive system and help tone the colon. Many find their bowel will get stronger as a result. Finding the right diet and lifestyle to optimize your health will complement the treatment and encourage deeper and more lasting improvements.</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Will I become reliant on Colonics?",
-              "authorBio": "Developer"
-            },
-            {
-              "text": "<p>Only filtered water is introduced into the colon.  Water is normally absorbed in the colon as part of the body's elimination process.  We also provide a probiotic to take right after your session because we have shifted congestion, and now your body is better able to gain healthy levels of bacteria.&nbsp;</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Will it wash out all the good bacteria?",
-              "authorBio": "Developer"
-            },
-            {
-              "text": "<p>Although it may not sound pleasant at first to observe, and it is not required by the client to do so, many find it fascinating that during the session they are able to see through the clear tubbing what is releasing and how it corresponds to what they feel. It also allows the Therapists to assess the health or imbalance of the client's digestive system in regards to the following: digestive functioning; gas and bloating patterns; toxins being stored in the body; mucus production; candida/yeast; and whether food is being broken down properly.  As you go through the session the Therapist will be observing the patterns and explaining and giving feedback as to how this relates to the functioning of your digestive system and health of your body as a whole.</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Can I see what comes out?",
-              "authorBio": "Developer"
-            },
-            {
-              "text": "<p>Many clients feel improvement after one or two Colonic, but one Colonic will not solve a bowel problem, chronic health issue or release all the toxins built up over years.  The average person will benefit from a series of regular colonics over a period of a few weeks. S<span style=\"font-size: 1.125rem; line-height: 2;\">omeone with a more serious problem such as lifelong constipation will likely benefit from a more extended program combined with diet and lifestyle changes to find more permanent relief. </span></p><p><span style=\"font-size: 1.125rem; line-height: 2;\"> Our experience with Colonic Hydrotherapy at The Yellow Brick Road is that while there are some similar patterns that occur, everyone’s needs and goals are different.  Your Colonic Hydrotherapist can provide feedback to help you develop your own personal program and assess how many Colonics you should have.&nbsp;</span></p><p>Our Colon Therapists are experienced Holistic Practitioners.  They will help you with other lifestyle issues such as diet and exercise, as well as providing referrals to other therapeutic modalities.  These suggestions can also greatly accelerate the release of toxins and healing of your body while receiving Colonics.</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "How many sessions will I need?",
-              "authorBio": "Developer"
-            },
-            {
-              "text": "<p>Many people also get Colonics during a fasting program to accelerate the release of toxins from the body.  Colonics are a great preparation and support for other cleanses such as a liver or kidney detox.  Having a Colonic can flush out toxins released from deeper in the body that may still be sitting in your colon.  This will prevent them from being reabsorbed by the body and often assists with 'detox symptoms'.  Our Colon Therapists are very knowledgeable about a wide variety of detox programs.</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Should I have a Colonic while I'm doing a cleanse or detox program?",
-              "authorBio": "Developer"
-            },
-            {
-              "text": "<p>A colonoscopy is a procedure that allows a trained Doctor to see inside the colon and rectum.  This examination can help detect inflamed tissue, ulcers, polyps and abnormal growths.  For accurate results, the colon walls should be as free of debris as possible.  Your Doctor will prescribe specific preparations for this procedure.  Some people are able to use 2-3 sessions of Colonic Hydrotherapy as a part of this preparation process as it is both a gentle and effective way to cleanse the colon. For more information watch this short <a href=\"https://youtu.be/axjWYmgDgv4\" target=\"_blank\" class=\"text-warning\">youtube</a>. Speak with your Doctor first to discuss the possibility of using Colonics as part of the preparation process.&nbsp;</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Can Colonics help with Colonoscopy preparation?",
-              "authorBio": "Developer"
-            },
-            {
-              "text": "<p>Colonic Hydrotherapy can be done at the same time as other therapies and will usually enhance the effect of other things you do to improve your health.</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Will it affect other therapies I am receiving?",
-              "authorBio": "Developer"
-            },
-            {
-              "text": "<p>We recommend that you eat light, healthy foods the day of your Colonic–-before and after.  Please avoid coffee, caffeine, sugar and alcohol for the entire day, as these are very hard on the system, and disrupt the body's natural rejuvenation process.  It is better not to eat, or drink anything except water for 2-3 hours before the Colonic. Please note that while you can drink water before your session, you do not need to drink extra water during the 2-3 hours before the session as this may result in the need to stop the session for the client to visit the washroom to urinate. Following these suggestions will optimize your results because the body makes digestion a priority over elimination.  It also helps to drink lots of water the day before your appointment. &nbsp;</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "How to prepare for your session?",
-              "authorBio": "Developer"
-            },
-            {
-              "text": "<p>A completely <b>optional</b> mixture of Psyllium and Bentonite Clay can be taken several days before your treatment to break-up and release old debris.  Mix 1 tablespoon of each in 8 oz. water, stir and drink once a day.  Make sure you are drinking at least 8 glasses of water per day if you are taking this mixture.  Both Psyllium and Bentonite can be found at many health food stores.  You can also wait until after your first appointment to assess how you feel and speak with the Therapist about any suggestions. If you are doing a specific preparation, it is also recommended to book your appointment in advance to ensure we are able to accomodate a convenient time.</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Can I take extra fibre before my session?",
-              "authorBio": "Developer"
-            },
-            {
-              "text": "<p>It is better to eat healthy and easily digestible foods for the rest of the day.  For example, you may choose to avoid fried or processed foods and red meat, as well as common allergens such as wheat and dairy. Please avoid coffee, caffeine, alcohol and sugar foods for the whole day. It is also good to avoid any foods that you know irritate your system. If you wish to eat straight after treatment, fresh vegetable juice or soup is ideal.&nbsp;</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "What should I eat after my session?",
-              "authorBio": "Developer"
-            },
-            {
-              "text": "<p>If you wish to reschedule or cancel your appointment you may do so with no questions asked and without penalty with <b>24 hours notice</b>. This gives us an opportunity to offer the time to other clients who may need it. Please call rather than email if you are cancelling with less than 24 hours notice so that we are sure to hear the message as soon as possible as it may be outside of reception hours. If we are assisting other clients, please leave a message. The answering machine will log the time you called so you will not be penalized if you do not reach us directly when giving 24 hours notice. </p><p>The fee for late cancellations is half the regular appointment cost. Many businesses charge the full amount. We absorb the other half lost from the missed appointment as we may not be able to fill the appointment without 24 hours notice. If two late cancellations occur consecutively, we request that the fees be paid in advance of your next booking. This can be done in person or by providing your credit card number over the phone. Your credit card information will be destroyed immediately after use unless we have been given permission to store it.&nbsp;</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "What is the cancellation policy?",
-              "authorBio": "Developer"
-            },
-            {
-              "text": "<p>If it is possible to do so as we realize you may be driving and not able to pull over, please call the office to advise us of your estimated time of arrival. We book sessions back-to-back and do our best to start on time so that our clients can better arrange their day and commitments. Lateness of 15 minutes or more may mean that there is not enough time to conduct your session. A late cancellation fee of half the appointment cost will apply.&nbsp;</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "What should I do if I'm running late?",
-              "authorBio": "Developer"
-            },
-            {
-              "text": "Please feel free to <a href=\"CONTACTUS.html\" class=\"text-warning\">contact us</a> if you have further questions.",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "More questions?",
-              "authorBio": "Developer"
             }
           ],
           "_anchor": "testimonials2-0",
           "_params": {
-            "count": "21",
-            "paddingTop": 3,
+            "count": "1",
+            "paddingTop": "2",
             "paddingBottom": 3,
             "showImages": false,
             "showName": true,
@@ -490,10 +430,10 @@
             "overlay": false,
             "overlayOpacity": 0.2,
             "overlayColor": "#222",
-            "showTitle": true,
+            "showTitle": false,
             "showSubtitle": false
           },
-          "title": "FAQ",
+          "title": "More Information",
           "subtitle": "Shape your future web project with sharp design and refine coded functions."
         },
         {
@@ -580,7 +520,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>Address</strong><br>258 Dupont Street<br>Toronto, ON &nbsp;M5R 1V7<br><br><br>\n<strong>Contact</strong><br>Email: info@yellowbrickroad-healthyliving.com<br>\nPhone: 416.926.1101<br><br>",
+          "text1": "<strong>Address</strong><br>258 Dupont Street<br>Toronto, ON &nbsp;M5R 1V7<br><br><br>\n<strong>Contact</strong><br>Email: info@ybrtorontocolonics.ca<br>\nPhone: 416.926.1101<br><br>",
           "text2": "<strong>Session Times&nbsp;</strong><ul><li>Monday 9-8pm</li><li>Tuesday-Thursday 10-7pm</li><li>Friday 8-7pm</li><li>Saturday 9-7pm</li><li>Sunday Please Call to Inquire</li></ul>"
         }
       ]
@@ -688,7 +628,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">YELLOW BRICK ROAD</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#content5-0\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-0\">SERVICES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">STATISTICS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-1\">ARTICLES</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"FAQ.html\">FAQ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"PRICING.html\">PRICING</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"CONTACTUS.html\">CONTACT US</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#content5-0\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-0\">SERVICES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials4-0\">TESTIMONIALS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">ANATOMY</a><div class=\"dropdown open\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"index.html#features3-1\" data-toggle=\"dropdown-submenu\">ARTICLES</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Constipation</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Bloating.html\">Bloating</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Fibre</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">STATISTICS</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"FAQ.html\">FAQ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"PRICING.html\">PRICING</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"CONTACTUS.html\">CONTACT US</a></li>"
         },
         {
           "_inherit": "content5",
@@ -716,7 +656,7 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.4",
+            "overlayOpacity": "0.1",
             "overlayColor": "#000000",
             "showTitle": true,
             "showCaption": false
@@ -781,7 +721,7 @@
           "subtitle1": "",
           "currency1": "$",
           "price1": "77.70",
-          "period1": "session",
+          "period1": "",
           "description1": "+hst",
           "list1": "<ul class=\"list-group list-group-flush\"><p><span style=\"font-size: 1rem; line-height: 1.5;\">Includes disposable procto</span><br></p><li class=\"list-group-item\">Includes post-session probiotic</li><li class=\"list-group-item\">Receive your 7th session free&nbsp;</li><li class=\"list-group-item\"><br></li><p></p></ul>",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\" data-toolbar=\"-mbrBtnMove\">DEMO</a>",
@@ -884,7 +824,7 @@
           "subtitle1": "<br><br>",
           "currency1": "$",
           "price1": "80",
-          "period1": "session",
+          "period1": "",
           "description1": "+hst",
           "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">1 hour appointment</li><li class=\"list-group-item\">30 additional minutes may be purchased at $40&nbsp;</li><li class=\"list-group-item\">...</li></ul>",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\">DEMO</a>",
@@ -926,8 +866,8 @@
           "_anchor": "header3-0",
           "_params": {
             "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff",
+            "paddingBottom": "2",
+            "bgColor": "#efefef",
             "showMeta": true
           },
           "title": "Methods of Payment<br><br>",
@@ -1000,7 +940,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>Address</strong><br>258 Dupont Street<br>Toronto, ON &nbsp;M5R 1V7<br><br><br>\n<strong>Contact</strong><br>Email: info@yellowbrickroad-healthyliving.com<br>\nPhone: 416.926.1101<br><br>",
+          "text1": "<strong>Address</strong><br>258 Dupont Street<br>Toronto, ON &nbsp;M5R 1V7<br><br><br>\n<strong>Contact</strong><br>Email: info@ybrtorontocolonics.ca<br>\nPhone: 416.926.1101<br><br>",
           "text2": "<strong>Session Times&nbsp;</strong><ul><li>Monday 9-8pm</li><li>Tuesday-Thursday 10-7pm</li><li>Friday 8-7pm</li><li>Saturday 9-7pm</li><li>Sunday Please Call to Inquire</li></ul>"
         }
       ]
@@ -1108,7 +1048,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">YELLOW BRICK ROAD</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#content5-0\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-0\">SERVICES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">STATISTICS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-1\">ARTICLES</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"FAQ.html\">FAQ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"PRICING.html\">PRICING</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"CONTACTUS.html\">CONTACT US</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#content5-0\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-0\">SERVICES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials4-0\">TESTIMONIALS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">ANATOMY</a><div class=\"dropdown open\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"index.html#features3-1\" data-toggle=\"dropdown-submenu\">ARTICLES</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Constipation</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Bloating.html\">Bloating</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Fibre</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">STATISTICS</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"FAQ.html\">FAQ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"PRICING.html\">PRICING</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"CONTACTUS.html\">CONTACT US</a></li>"
         },
         {
           "_inherit": "content5",
@@ -1136,7 +1076,7 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.4",
+            "overlayOpacity": "0.1",
             "overlayColor": "#000000",
             "showTitle": true,
             "showCaption": false
@@ -1162,14 +1102,13 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": false,
+            "inverse": true,
             "showTitle": true,
             "showText": true,
             "showButtons": false
           },
           "media": {
             "image": {
-              "active": true,
               "width": 1400,
               "src": "@PROJECT_PATH@/assets/images/phone-1439839-1280-1400x1400-26.png",
               "link": "",
@@ -1186,14 +1125,16 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-msg-box5",
               "linkInNewWindow": false,
-              "name": "phone",
-              "family": "et-line",
+              "name": "phone-wifi",
+              "family": "iconsMind",
               "link": "",
-              "size": 0
+              "size": 0,
+              "active": true,
+              "color": "#393939"
             }
           },
           "title": "<a href=\"&lt;a href=&quot;tel:+1-926-1101&quot;&gt;+1 (416) 926-1101&lt;/a&gt;\" class=\"text-black\">416.926.1101</a>",
-          "text": "Appointments are available 7 days per week, including evenings. &nbsp;Please leave your full name and number clearly to ensure we are able to reach you.<br><br>Please note cancellations are without penalty when 24 hours notice is given. Please see the FAQ page for the complete policy..",
+          "text": "Appointments are available 7 days per week, including evenings. &nbsp;Please leave your full name and number clearly to ensure we are able to reach you.<br><br>Please note cancellations are without penalty when 24 hours notice is given. Please see the <a href=\"FAQ.html\">FAQ</a> page for the complete policy..",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         },
         {
@@ -1204,6 +1145,9 @@
             },
             ".btn": {
               "font-size": "12px"
+            },
+            ".mbr-section-title": {
+              "color": "#232323"
             }
           },
           "_anchor": "form1-0",
@@ -1268,7 +1212,7 @@
             "showMeta": true
           },
           "title": "Location",
-          "meta": "Conveniently located across from the Dupont Subway Station.<br><br>Parking can be found on various sidestreets, at the George Brown parking lot,<br> and is permitted along some sections of Dupont Street between 9-4pm and 6pm onward."
+          "meta": "Conveniently located across from the Dupont Subway Station.<br><br>Parking can be found on various sidestreets, at the George Brown parking lot,<br> and is permitted along some sections of Dupont Street between 9-4pm and 6pm onward.<br><br>258 Dupont also houses offices for Psychotherapy."
         },
         {
           "_name": "map1",
@@ -1302,7 +1246,7 @@
             "bgColor": "#fff",
             "bgColorRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.2",
+            "overlayOpacity": "0",
             "overlayColor": "#000000"
           },
           "text": "FOLLOW US",
@@ -1392,7 +1336,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>Address</strong><br>258 Dupont Street<br>Toronto, ON &nbsp;M5R 1V7<br><br><br>\n<strong>Contact</strong><br>Email: info@yellowbrickroad-healthyliving.com<br>\nPhone: 416.926.1101<br><br>",
+          "text1": "<strong>Address</strong><br>258 Dupont Street<br>Toronto, ON &nbsp;M5R 1V7<br><br><br>\n<strong>Contact</strong><br>Email: info@ybrtorontocolonics.ca<br>\nPhone: 416.926.1101<br><br>",
           "text2": "<strong>Session Times&nbsp;</strong><ul><li>Monday 9-8pm</li><li>Tuesday-Thursday 10-7pm</li><li>Friday 8-7pm</li><li>Saturday 9-7pm</li><li>Sunday Please Call to Inquire</li></ul>"
         }
       ]
@@ -1500,7 +1444,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">YELLOW BRICK ROAD</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#content5-0\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-0\">SERVICES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">STATISTICS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-1\">ARTICLES</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"FAQ.html\">FAQ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"PRICING.html\">PRICING</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"CONTACTUS.html\">CONTACT US</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#content5-0\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-0\">SERVICES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials4-0\">TESTIMONIALS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">ANATOMY</a><div class=\"dropdown open\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"index.html#features3-1\" data-toggle=\"dropdown-submenu\">ARTICLES</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Constipation</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Bloating.html\">Bloating</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Fibre</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">STATISTICS</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"FAQ.html\">FAQ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"PRICING.html\">PRICING</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"CONTACTUS.html\">CONTACT US</a></li>"
         },
         {
           "_inherit": "content5",
@@ -1528,7 +1472,7 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.4",
+            "overlayOpacity": "0.1",
             "overlayColor": "#000000",
             "showTitle": true,
             "showCaption": false
@@ -1670,7 +1614,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>Address</strong><br>258 Dupont Street<br>Toronto, ON &nbsp;M5R 1V7<br><br><br>\n<strong>Contact</strong><br>Email: info@yellowbrickroad-healthyliving.com<br>\nPhone: 416.926.1101<br><br>",
+          "text1": "<strong>Address</strong><br>258 Dupont Street<br>Toronto, ON &nbsp;M5R 1V7<br><br><br>\n<strong>Contact</strong><br>Email: info@ybrtorontocolonics.ca<br>\nPhone: 416.926.1101<br><br>",
           "text2": "<strong>Session Times&nbsp;</strong><ul><li>Monday 9-8pm</li><li>Tuesday-Thursday 10-7pm</li><li>Friday 8-7pm</li><li>Saturday 9-7pm</li><li>Sunday Please Call to Inquire</li></ul>"
         }
       ]
@@ -1778,7 +1722,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">YELLOW BRICK ROAD</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#content5-0\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-0\">SERVICES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">STATISTICS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-1\">ARTICLES</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"FAQ.html\">FAQ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"PRICING.html\">PRICING</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"CONTACTUS.html\">CONTACT US</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#content5-0\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-0\">SERVICES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials4-0\">TESTIMONIALS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">ANATOMY</a><div class=\"dropdown open\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"index.html#features3-1\" data-toggle=\"dropdown-submenu\">ARTICLES</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Constipation</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Bloating.html\">Bloating</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Fibre</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">STATISTICS</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"FAQ.html\">FAQ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"PRICING.html\">PRICING</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"CONTACTUS.html\">CONTACT US</a></li>"
         },
         {
           "_inherit": "content5",
@@ -1806,7 +1750,7 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.4",
+            "overlayOpacity": "0.1",
             "overlayColor": "#000000",
             "showTitle": true,
             "showCaption": false
@@ -1935,7 +1879,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>Address</strong><br>258 Dupont Street<br>Toronto, ON &nbsp;M5R 1V7<br><br><br>\n<strong>Contact</strong><br>Email: info@yellowbrickroad-healthyliving.com<br>\nPhone: 416.926.1101<br><br>",
+          "text1": "<strong>Address</strong><br>258 Dupont Street<br>Toronto, ON &nbsp;M5R 1V7<br><br><br>\n<strong>Contact</strong><br>Email: info@ybrtorontocolonics.ca<br>\nPhone: 416.926.1101<br><br>",
           "text2": "<strong>Session Times&nbsp;</strong><ul><li>Monday 9-8pm</li><li>Tuesday-Thursday 10-7pm</li><li>Friday 8-7pm</li><li>Saturday 9-7pm</li><li>Sunday Please Call to Inquire</li></ul>"
         }
       ]
@@ -2043,7 +1987,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">YELLOW BRICK ROAD</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#content5-0\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-0\">SERVICES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">STATISTICS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-1\">ARTICLES</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"FAQ.html\">FAQ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"PRICING.html\">PRICING</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"CONTACTUS.html\">CONTACT US</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#content5-0\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-0\">SERVICES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials4-0\">TESTIMONIALS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">ANATOMY</a><div class=\"dropdown open\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"index.html#features3-1\" data-toggle=\"dropdown-submenu\">ARTICLES</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Constipation</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Bloating.html\">Bloating</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Fibre</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">STATISTICS</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"FAQ.html\">FAQ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"PRICING.html\">PRICING</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"CONTACTUS.html\">CONTACT US</a></li>"
         },
         {
           "_inherit": "content5",
@@ -2071,7 +2015,7 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.4",
+            "overlayOpacity": "0.1",
             "overlayColor": "#000000",
             "showTitle": true,
             "showCaption": false
@@ -2130,10 +2074,10 @@
               "color": "#fff"
             },
             "H3": {
-              "color": "#000000"
+              "color": "#232323"
             },
             "P": {
-              "color": "#312f2f"
+              "color": "#232323"
             }
           },
           "_name": "msg-box6",
@@ -2251,7 +2195,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>Address</strong><br>258 Dupont Street<br>Toronto, ON &nbsp;M5R 1V7<br><br><br>\n<strong>Contact</strong><br>Email: info@yellowbrickroad-healthyliving.com<br>\nPhone: 416.926.1101<br><br>",
+          "text1": "<strong>Address</strong><br>258 Dupont Street<br>Toronto, ON &nbsp;M5R 1V7<br><br><br>\n<strong>Contact</strong><br>Email: info@ybrtorontocolonics.ca<br>\nPhone: 416.926.1101<br><br>",
           "text2": "<strong>Session Times&nbsp;</strong><ul><li>Monday 9-8pm</li><li>Tuesday-Thursday 10-7pm</li><li>Friday 8-7pm</li><li>Saturday 9-7pm</li><li>Sunday Please Call to Inquire</li></ul>"
         }
       ]
@@ -2268,87 +2212,76 @@
       },
       "components": [
         {
-          "_name": "slider",
-          "_styles": {
-            "H2": {
-              "font-size": "80px"
-            },
-            "DIV": {
-              "font-size": "36px"
-            }
-          },
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
           "_params": {
-            "autoplay": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "timeout": "6",
+            "customSize": true,
+            "customWidth": "1600",
+            "customHeight": "1080",
+            "size": "1024x576",
             "slides": [
               {
+                "src": "@PROJECT_PATH@/assets/images/woman-1633862-1920-2000x1391-51.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/woman-1633862-1920-2000x1391-51-1600x900-24.jpg",
+                "title": "Colon Hydrotherapy",
+                "text": "Your pathway to health",
+                "tooltip": "@PROJECT_PATH@/assets/images/woman-1633862-1920-2000x1391-51-85x48-67.jpg"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/couple-1030744-1920-2000x1332-9.jpg",
                 "active": true,
-                "image": "@PROJECT_PATH@/assets/images/woman-1633862-1920-2000x1391-33.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "overlayOpacity": "0.4",
-                "contentAlign": "right",
-                "showTitle": true,
-                "title": "Colon&nbsp;<div>Hydrotherapy</div>",
-                "showText": true,
-                "text": "The pathway to health starts in the colon",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/couple-1030744-1920-2000x1332-70.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "overlayOpacity": "0.4",
-                "contentAlign": "left",
-                "showTitle": true,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/couple-1030744-1920-2000x1332-9-1600x900-89.jpg",
                 "title": "Renew",
-                "showText": true,
                 "text": "Detoxifiy, improve energy, and wellbeing",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "tooltip": "@PROJECT_PATH@/assets/images/couple-1030744-1920-2000x1332-9-85x48-0.jpg"
               },
               {
+                "src": "@PROJECT_PATH@/assets/images/happy-days-1439702-2000x1515-26.jpg",
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/happy-days-1439702-2000x1515-70.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "overlayOpacity": "0.4",
-                "contentAlign": "left",
-                "showTitle": true,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/happy-days-1439702-2000x1515-26-1600x900-81.jpg",
                 "title": "Relief",
-                "showText": true,
-                "text": "Improve elimination",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "text": "Improve Elimination",
+                "tooltip": "@PROJECT_PATH@/assets/images/happy-days-1439702-2000x1515-26-85x48-28.jpg"
               },
               {
+                "src": "@PROJECT_PATH@/assets/images/girl-925410-1920-2000x1333-92.jpg",
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/girl-925410-1920-2000x1333-79.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "overlayOpacity": "0.3",
-                "contentAlign": "right",
-                "showTitle": true,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/girl-925410-1920-2000x1333-92-1600x900-84.jpg",
                 "title": "Retrain",
-                "showText": true,
-                "text": "Strenthen the colon and leave behind <br>habits that no longer serve you<br>",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "text": "Strenthen the colon, leave behind habits that no longer serve you",
+                "tooltip": "@PROJECT_PATH@/assets/images/girl-925410-1920-2000x1333-92-85x48-77.jpg"
               }
             ],
+            "theme": "chrome",
+            "bgColor": "#efefef",
+            "animType": "kenburns",
+            "autoplay": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
             "fullScreen": true,
-            "bgColor": "#fff",
-            "showBullets": true
+            "showBullets": true,
+            "timeout": 2,
+            "duration": 2,
+            "height": "576",
+            "width": "1024",
+            "responsive": "2",
+            "showCaptions": true,
+            "captionsEffect": "fade",
+            "hideControls": true
           },
-          "_anchor": "slider-0",
+          "_anchor": "wowslider-1g",
           "articleLayout": false
         },
         {
@@ -2357,11 +2290,11 @@
               "color": "#fff"
             },
             "P": {
-              "color": "#7c706b",
+              "color": "#232323",
               "text-align": "center"
             },
             ".mbr-section-title": {
-              "color": "#7c706b",
+              "color": "#232323",
               "text-align": "center",
               "font-family": "'Roboto', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
@@ -2388,7 +2321,7 @@
             "showCaption": true
           },
           "title": "ABOUT US",
-          "caption": "<p>The Yellow Brick Road Holistic Centre has been assisting clients in the Greater Toronto Area with their health and wellness goals for over 30 years﻿.  Located at the North edge of the Annex in Downtown Toronto, Ontario, in the up and coming area of Dupont by the Castle, we specialize in providing quality and safe natural colon cleanse treatments to clients at an accessible price. &nbsp;Our aim is to facilitate clients from all walks of life to be able to detoxify the body and optimize their health.  Through regular sessions of Colonic Hydrotherapy and dietary and lifestyle changes, many of our clients have found improvement in their digestion, elimination and overall well-being.&nbsp;</p>"
+          "caption": "<p>The Yellow Brick Road Holistic Centre has been assisting clients in the Greater Toronto Area with their health and wellness goals for over 30 years﻿.  Located at the North edge of the Annex in Downtown Toronto, Ontario, in the up and coming area of Dupont by the Castle, we specialize in providing quality and safe natural colon cleanse treatments at an accessible price. &nbsp;Our aim is to facilitate clients from all walks of life to be able to detoxify the body and optimize their health.  Through regular sessions of Colon Hydrotherapy also known as Colon Irrigation and dietary and lifestyle changes, many of our clients have found improvement in their digestion, elimination and overall well-being.&nbsp;</p>"
         },
         {
           "_name": "features3",
@@ -2399,7 +2332,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#a5c2c6",
+            "bgColor": "#e9e9e9",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -2408,7 +2341,7 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "columns": "3",
+            "columns": "2",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
@@ -2427,9 +2360,9 @@
               "linkInNewWindow": false
             }
           },
-          "title1": "Colonic Hydrotherapy",
+          "title1": "Colon Hydrotherapy",
           "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Colonic Hydrotherapy performed by a Certified Colonic Hydrotherapist is a way of assisting the body to let go oftoxins and unwanted materials from the large intestine.  Please see our <a href=\"FAQ.html\" class=\"text-white\">FAQ</a> for more information.",
+          "caption1": "Colon Hydrotherapy performed by a trained Colon Hydrotherapist is a way of assisting the body to let go oftoxins and unwanted materials from the large intestine.  Please see our <a href=\"FAQ.html\" class=\"text-warning\">FAQ</a> for more information.",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media2": {
             "image": {
@@ -2463,6 +2396,319 @@
           "subtitle3": "Google has a highly exhaustive list of fonts",
           "caption3": "A soothing way to clear the ears, relieve sinus pressure, and enhance lymphatic drainage.",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_inherit": "testimonials2",
+          "_name": "testimonials4",
+          "testimonial": [
+            {
+              "text": "<p>“Coming Soon”</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face3.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Testimonial",
+              "authorBio": "User"
+            },
+            {
+              "text": "<p>“Coming Soon”</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face1.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Testimonial",
+              "authorBio": "User"
+            },
+            {
+              "text": "<p>“Coming Soon”</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Testimonial",
+              "authorBio": "User"
+            }
+          ],
+          "_anchor": "testimonials4-0",
+          "_params": {
+            "count": 3,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showImages": false,
+            "showName": true,
+            "showBio": false,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/water-background-164870-1280-2000x1332-9.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.3",
+            "overlayColor": "#7e9b9f",
+            "showTitle": true,
+            "showSubtitle": false
+          },
+          "title": "WHAT OUR FANTASTIC CLIENTS SAY",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions."
+        },
+        {
+          "_styles": {
+            ".feature-title, .description": {
+              "color": "#232323"
+            },
+            ".feature-subtitle": {
+              "color": "#8c8c8c"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "desktop",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "linegraph",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "feature_title3": "Translation ready",
+          "feature_subtitle3": "Find a common language with anyone",
+          "feature_text3": "Donec felis leo, placerat et porttitor, fermentum ut nunc. Integer consequat pretium tempor. Fusce aliquam libero quis dui dictum.",
+          "feature_title6": "Awesome parallax",
+          "feature_subtitle6": "Enjoy smooth bg sliding on scroll",
+          "feature_text6": "Donec felis leo, placerat et porttitor, fermentum ut nunc. Integer consequat pretium tempor. Fusce aliquam libero quis dui dictum.",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extFeatures8",
+          "_anchor": "extFeatures8-19",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": false,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/extFeatures1/images/jumbotron.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showSubtitle": false
+          },
+          "title": "THE COLON",
+          "subtitle": "Colon Hydrotherapy performed by a Certified Colon Hydrotherapist is a way of assisting the body to let go of toxins and unwanted materials from the large intestine. Please see our <a href=\"FAQ.html\">FAQ</a> for more information.",
+          "feature_title1": "Structure",
+          "feature_subtitle1": "",
+          "feature_text1": "The Colon or large intestine is approximately 5 feet in an adult. &nbsp;Consisting of the caecum, ascending colon, transverse colon, descending colon, sigmoid colon and rectum&nbsp;",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont-features6",
+              "linkInNewWindow": false,
+              "name": "arrow-circle-right",
+              "family": "FontAwesome",
+              "active": true,
+              "size": 0,
+              "color": "@primaryColor"
+            }
+          },
+          "feature_title2": "Function",
+          "feature_subtitle2": "",
+          "feature_text2": "The Colon is responsible for forming, storing and expelling waste matter along with a number of important, but lesser known functions..",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont-features6",
+              "linkInNewWindow": false,
+              "name": "arrow-circle-right",
+              "family": "FontAwesome",
+              "active": true,
+              "size": 0,
+              "color": "@primaryColor"
+            }
+          },
+          "media": {
+            "image": {
+              "class": "central-image",
+              "src": "@PROJECT_PATH@/assets/images/diagram-41638-1280-1280x1242-24.png",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont-features6",
+              "linkInNewWindow": false,
+              "name": "arrow-circle-left",
+              "family": "FontAwesome",
+              "active": true,
+              "size": 0,
+              "color": "@primaryColor"
+            }
+          },
+          "feature_title4": "Downside",
+          "feature_subtitle4": "",
+          "feature_text4": "Various health problems occur in the colon when impacted fecal matter and toxins are allowed to remain in the intestines for a long period of time...they're not being eliminated properly",
+          "media5": {
+            "iconFont": {
+              "class": "mbr-iconfont-features6",
+              "linkInNewWindow": false,
+              "name": "arrow-circle-left",
+              "family": "FontAwesome",
+              "active": true,
+              "size": 0,
+              "color": "@primaryColor"
+            }
+          },
+          "feature_title5": "Result",
+          "feature_subtitle5": "",
+          "feature_text5": "Diseases of the body's elimination system are common in developed countries--Colorectal cancer,&nbsp;polyps,&nbsp;<br>ulcerative colitis, diverticulitis,&nbsp;<br>Irritable bowel syndrome, Crohn's disease...<br>"
+        },
+        {
+          "_name": "features3",
+          "_styles": {
+            "P": {
+              "color": "#232323"
+            }
+          },
+          "_anchor": "features3-1",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "3",
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": true
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/offal-1463369-1280-1crop2-600x365-38.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Constipation",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Constipation occurs when there is abnormally delayed or infrequent passage of bowel movements",
+          "button1": "<a data-app-btn=\"true\" href=\"Constipation.html\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/belly-2473-1920-600x400-20.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "Bloating",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "Feel like it's time to deflate? You might blame it on retaining water, but the truth is that most bloating is caused by gas.",
+          "button2": "<a data-app-btn=\"true\" href=\"Bloating.html\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/apple-2311-1920-600x399-68.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "Fibre",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Fibre is basically an indigestible (and therefore calorie-free) complex carbohydrate found in fruits, vegetables and grains.",
+          "button3": "<a data-app-btn=\"true\" href=\"Fibre.html\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media4": {
             "image": {
               "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
@@ -2593,15 +2839,15 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">YELLOW BRICK ROAD</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#content5-0\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-0\">SERVICES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">STATISTICS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-1\">ARTICLES</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"FAQ.html\">FAQ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"PRICING.html\">PRICING</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"CONTACTUS.html\">CONTACT US</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#content5-0\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-0\">SERVICES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials4-0\">TESTIMONIALS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">ANATOMY</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"index.html#features3-1\" data-toggle=\"dropdown-submenu\">ARTICLES</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Constipation</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Bloating.html\">Bloating</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Fibre</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">STATISTICS</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"FAQ.html\">FAQ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"PRICING.html\">PRICING</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"CONTACTUS.html\">CONTACT US</a></li>"
         },
         {
           "_name": "content1",
           "_anchor": "page9-content1-0",
           "_params": {
             "paddingTop": "3",
-            "paddingBottom": 1,
-            "bgColor": "#fff"
+            "paddingBottom": "2",
+            "bgColor": "#ffffff"
           },
           "text": "<p>Many Canadians deal with the symptoms of a digestive disorder every day. Whether it drains energy and one's wellbeing or requires a hospital stay, few speak about the disease and its impact on their lifestyle and work. These statistics will give you an idea of the magnitude of digestive disorders in Canada, and the need to be proactive to gain and keep good health.</p>"
         },
@@ -2614,192 +2860,13 @@
           },
           "_anchor": "page9-content7-0",
           "_params": {
-            "paddingTop": "1",
+            "paddingTop": "2",
             "paddingBottom": "3",
             "bgColor": "#fff"
           },
           "text1": "<p><b>Colon Cancer</b></p><p><br></p><ul><li>Colon cancer has the 2nd highest death rate of all cancers in Canada.&nbsp;</li><li>On average, 69 Canadians will be diagnosed with colorectal cancer every day.</li><li>On average, 25 Canadians will die of colorectal cancer every day.</li><li>Approximately 37% of those diagnosed will reside in Ontario.</li><li>It was estimated 25,100 Canadians will be diagnosed with colorectal cancer in 2015. This represents 13% of all new cancer cases in 2015.</li><li>It was estimated 9,300 Canadians will die from colorectal cancer in 2015. This represents 12% of all cancer deaths in 2015..</li></ul><p><br></p><p><i>The Canadian Cancer Society</i></p>",
           "text2": "<p><b>Digestive Health</b></p><p><br></p><ul><li>More than 20 million Canadians suffer from digestive disorders every year.</li><li>Each year nearly 30,000 Canadians die of diseases of the digestive system.</li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">5 million Canadians experience heartburn at least one time per week.</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">More than 330,000 Canadians are believed to be affected by celiac disease with only approximately 110,000 diagnosed.&nbsp;</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">More than half of adults aged 50 years and older will develop hemorrhoid symptoms in their lifetime.</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Canada has one of the highest rates of IBS in the world.</span></li></ul><p><br></p><p><i>Canadian Digestive Health Foundation</i></p>",
           "text3": "<p><b>Monetary Cost</b></p><p><br></p><ul><li>Digestive disorders cost $18 billion (2000) annually in health care costs and lost productivity.</li><li>Inpatient care for colorectal cancer costs $210 million and is the 15th most expensive condition to treat in Canada.</li><li>In 2008, $141 million was spent on prescription drugs for the treatment of Crohn's disease.</li><li>Complimentary and alternative medicines are used at some point by half of all IBD patients. Costs associated with these medicines are not covered by health care plans.</li><li>The impact on individuals and families, Too high.</li></ul><p><i><br></i></p><p><i>Canadian Digestive Health Foundation</i></p>"
-        },
-        {
-          "_inherit": "testimonials2",
-          "_name": "testimonials4",
-          "testimonial": [
-            {
-              "text": "<p>“Coming Soon”</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face3.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Testimonial",
-              "authorBio": "User"
-            },
-            {
-              "text": "<p>“Coming Soon”</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face1.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Testimonial",
-              "authorBio": "User"
-            },
-            {
-              "text": "<p>“Coming Soon”</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Testimonial",
-              "authorBio": "User"
-            }
-          ],
-          "_anchor": "testimonials4-0",
-          "_params": {
-            "count": 3,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "showImages": false,
-            "showName": true,
-            "showBio": false,
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/water-background-164870-1280-2000x1332-9.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.3",
-            "overlayColor": "#d6ebf9",
-            "showTitle": true,
-            "showSubtitle": false
-          },
-          "title": "WHAT OUR FANTASTIC CLIENTS SAY",
-          "subtitle": "Shape your future web project with sharp design and refine coded functions."
-        },
-        {
-          "_name": "features3",
-          "_anchor": "features3-1",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "3",
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": false,
-            "ShowTexts": true,
-            "showButtons": true
-          },
-          "media1": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/offal-1463369-1280-1crop2-600x365-38.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "title1": "Constipation",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Constipation occurs when there is abnormally delayed or infrequent passage of bowel movements",
-          "button1": "<a data-app-btn=\"true\" href=\"Constipation.html\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "media2": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/belly-2473-1920-600x400-20.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "title2": "Bloating",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "Feel like it's time to deflate? You might blame it on retaining water, but the truth is that most bloating is caused by gas.",
-          "button2": "<a data-app-btn=\"true\" href=\"Bloating.html\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "media3": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/apple-2311-1920-600x399-68.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "title3": "Fibre",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Fibre is basically an indigestible (and therefore calorie-free) complex carbohydrate found in fruits, vegetables and grains.",
-          "button3": "<a data-app-btn=\"true\" href=\"Fibre.html\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "media4": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "title4": "Unlimited Sites",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media5": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media6": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
           "_styles": {
@@ -2810,37 +2877,34 @@
               "color": "#a0a0a0"
             }
           },
-          "_name": "form2",
-          "_anchor": "form2-0",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-1h",
           "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "1",
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#2e2e2e",
             "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": false,
-            "showSubTitle": true
+            "inverse": false,
+            "showButtons": true,
+            "showTitle": true,
+            "showText": true
           },
-          "title": "SUBSCRIBE FORM",
-          "subtitle": "Subscribe to our E-Newsletter to receive occasional information about updates, tips and specials from Yellow Brick Road.  Consent may be withdrawan at any time by unsubscribing.",
-          "form": {
-            "action": "info@yellowbrickroad-healthyliving.com",
-            "alerts": {
-              "success": "Thanks for filling out form!"
-            },
-            "fields": {
-              "email": {
-                "title": "Email",
-                "customTitle": "Enter Your Email Address..."
-              }
-            }
-          },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SUBSCRIBE<br></a>"
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SUBSCRIBE</a>",
+          "title": "Free E-Newsletter Sign-up",
+          "text": "Subscribe to our E-Newsletter to receive occasional information about Yellow Brick Road updates, tips and specials. Consent may be withdrawan at any time by using the unsubscribe link at the bottom of each email."
         },
         {
           "_name": "footer1",
@@ -2885,7 +2949,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>Address</strong><br>258 Dupont Street<br>Toronto, ON &nbsp;M5R 1V7<br><br><br>\n<strong>Contact</strong><br>Email: info@yellowbrickroad-healthyliving.com<br>\nPhone: 416.926.1101<br><br>",
+          "text1": "<strong>Address</strong><br>258 Dupont Street<br>Toronto, ON &nbsp;M5R 1V7<br><br><br>\n<strong>Contact</strong><br>Email: info@ybrtorontocolonics.ca<br>\nPhone: 416.926.1101<br><br>",
           "text2": "<strong>Session Times&nbsp;</strong><ul><li>Monday 9-8pm</li><li>Tuesday-Thursday 10-7pm</li><li>Friday 8-7pm</li><li>Saturday 9-7pm</li><li>Sunday Please Call to Inquire</li></ul>"
         }
       ]
@@ -2993,7 +3057,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">YELLOW BRICK ROAD</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#content5-0\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-0\">SERVICES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">STATISTICS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-1\">ARTICLES</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"FAQ.html\">FAQ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"PRICING.html\">PRICING</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"CONTACTUS.html\">CONTACT US</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#content5-0\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-0\">SERVICES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials4-0\">TESTIMONIALS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">ANATOMY</a><div class=\"dropdown open\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"index.html#features3-1\" data-toggle=\"dropdown-submenu\">ARTICLES</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Constipation</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Bloating.html\">Bloating</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Fibre</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">STATISTICS</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"FAQ.html\">FAQ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"PRICING.html\">PRICING</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"CONTACTUS.html\">CONTACT US</a></li>"
         },
         {
           "_inherit": "content5",
@@ -3021,7 +3085,7 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.4",
+            "overlayOpacity": "0.1",
             "overlayColor": "#000000",
             "showTitle": true,
             "showCaption": false
@@ -3162,7 +3226,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>Address</strong><br>258 Dupont Street<br>Toronto, ON &nbsp;M5R 1V7<br><br><br>\n<strong>Contact</strong><br>Email: info@yellowbrickroad-healthyliving.com<br>\nPhone: 416.926.1101<br><br>",
+          "text1": "<strong>Address</strong><br>258 Dupont Street<br>Toronto, ON &nbsp;M5R 1V7<br><br><br>\n<strong>Contact</strong><br>Email: info@ybrtorontocolonics.ca<br>\nPhone: 416.926.1101<br><br>",
           "text2": "<strong>Session Times&nbsp;</strong><ul><li>Monday 9-8pm</li><li>Tuesday-Thursday 10-7pm</li><li>Friday 8-7pm</li><li>Saturday 9-7pm</li><li>Sunday Please Call to Inquire</li></ul>"
         }
       ]
@@ -3270,7 +3334,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">YELLOW BRICK ROAD</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#content5-0\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-0\">SERVICES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">STATISTICS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-1\">ARTICLES</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"FAQ.html\">FAQ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"PRICING.html\">PRICING</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"CONTACTUS.html\">CONTACT US</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#content5-0\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-0\">SERVICES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials4-0\">TESTIMONIALS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">ANATOMY</a><div class=\"dropdown open\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"index.html#features3-1\" data-toggle=\"dropdown-submenu\">ARTICLES</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Constipation</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Bloating.html\">Bloating</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Fibre</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">STATISTICS</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"FAQ.html\">FAQ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"PRICING.html\">PRICING</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"CONTACTUS.html\">CONTACT US</a></li>"
         },
         {
           "_inherit": "content5",
@@ -3298,7 +3362,7 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.4",
+            "overlayOpacity": "0.1",
             "overlayColor": "#000000",
             "showTitle": true,
             "showCaption": false
@@ -3457,6 +3521,469 @@
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extFeatures9",
+          "_anchor": "extFeatures9-1f",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": true,
+            "columns": 3,
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showIcons": true
+          },
+          "title": "OUR TEAM",
+          "subtitle": "This theme is based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework.",
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/face5.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "William Smith",
+          "subtitle1": "Programmer",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "media1_1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "dribbble",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media1_2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "lastfm",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media1_3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "skype",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media1_4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "linkedin",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/face1.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title2": "Emma Jones",
+          "subtitle2": "SEO",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "media2_1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "dribbble",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media2_2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "lastfm",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media2_3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "skype",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media2_4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "linkedin",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/face6.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title3": "Michael Taylor",
+          "subtitle3": "Manager",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "media3_1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "dribbble",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media3_2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "lastfm",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media3_3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "skype",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media3_4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "linkedin",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@ADDONS_PATH@/mobirise3-blocks/components/_images/face2.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title4": "Emily Brown",
+          "subtitle4": "Reception",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "media4_1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "dribbble",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media4_2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "lastfm",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media4_3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "skype",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media4_4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "linkedin",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@ADDONS_PATH@/mobirise3-blocks/components/_images/face3.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "James Evans",
+          "subtitle5": "Sales",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "media5_1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "dribbble",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media5_2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "lastfm",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media5_3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "skype",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media5_4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "linkedin",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@ADDONS_PATH@/mobirise3-blocks/components/_images/face4.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Daniel Walker",
+          "subtitle6": "Founder",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "media6_1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "dribbble",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media6_2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "lastfm",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media6_3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "skype",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          },
+          "media6_4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
+              "name": "linkedin",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000",
+              "family": "socicon"
+            }
+          }
+        },
+        {
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extFeatures6",
+          "_styles": {
+            ".card-img": {
+              "background-color": "@primaryColor !important"
+            }
+          },
+          "_anchor": "extFeatures6-1e",
+          "_params": {
+            "iconsColorBG": "@primaryColor",
+            "paddingTop": 3,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/extFeatures3/images/img_extFeatures6_bg.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.6,
+            "overlayColor": "#222",
+            "columns": 3,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "showImages": true
+          },
+          "title1": "Bootstrap 4",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "personal-task",
+              "family": "icon54-v2",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff"
+            }
+          },
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4s big points",
+          "caption2": "Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "personal-task",
+              "family": "icon54-v2",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff"
+            }
+          },
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "personal-task",
+              "family": "icon54-v2",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff"
+            }
+          },
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "compass",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff",
+              "family": "et-line"
+            }
+          }
+        },
+        {
           "_styles": {
             ".mbr-section-title": {
               "color": "#fff"
@@ -3523,7 +4050,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>Address</strong><br>258 Dupont Street<br>Toronto, ON &nbsp;M5R 1V7<br><br><br>\n<strong>Contact</strong><br>Email: info@yellowbrickroad-healthyliving.com<br>\nPhone: 416.926.1101<br><br>",
+          "text1": "<strong>Address</strong><br>258 Dupont Street<br>Toronto, ON &nbsp;M5R 1V7<br><br><br>\n<strong>Contact</strong><br>Email: info@ybrtorontocolonics.ca<br>\nPhone: 416.926.1101<br><br>",
           "text2": "<strong>Session Times&nbsp;</strong><ul><li>Monday 9-8pm</li><li>Tuesday-Thursday 10-7pm</li><li>Friday 8-7pm</li><li>Saturday 9-7pm</li><li>Sunday Please Call to Inquire</li></ul>"
         }
       ]
@@ -3631,7 +4158,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">YELLOW BRICK ROAD</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#content5-0\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-0\">SERVICES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">STATISTICS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-1\">ARTICLES</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"FAQ.html\">FAQ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"PRICING.html\">PRICING</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"CONTACTUS.html\">CONTACT US</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#content5-0\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-0\">SERVICES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials4-0\">TESTIMONIALS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">ANATOMY</a><div class=\"dropdown open\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"index.html#features3-1\" data-toggle=\"dropdown-submenu\">ARTICLES</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Constipation</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Bloating.html\">Bloating</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Fibre</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">STATISTICS</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"FAQ.html\">FAQ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"PRICING.html\">PRICING</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"CONTACTUS.html\">CONTACT US</a></li>"
         },
         {
           "_inherit": "content5",
@@ -3659,7 +4186,7 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.4",
+            "overlayOpacity": "0.1",
             "overlayColor": "#000000",
             "showTitle": true,
             "showCaption": false
@@ -3792,7 +4319,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>Address</strong><br>258 Dupont Street<br>Toronto, ON &nbsp;M5R 1V7<br><br><br>\n<strong>Contact</strong><br>Email: info@yellowbrickroad-healthyliving.com<br>\nPhone: 416.926.1101<br><br>",
+          "text1": "<strong>Address</strong><br>258 Dupont Street<br>Toronto, ON &nbsp;M5R 1V7<br><br><br>\n<strong>Contact</strong><br>Email: info@ybrtorontocolonics.ca<br>\nPhone: 416.926.1101<br><br>",
           "text2": "<strong>Session Times&nbsp;</strong><ul><li>Monday 9-8pm</li><li>Tuesday-Thursday 10-7pm</li><li>Friday 8-7pm</li><li>Saturday 9-7pm</li><li>Sunday Please Call to Inquire</li></ul>"
         }
       ]
@@ -3900,7 +4427,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">YELLOW BRICK ROAD</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#content5-0\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-0\">SERVICES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">STATISTICS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-1\">ARTICLES</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"FAQ.html\">FAQ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"PRICING.html\">PRICING</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"CONTACTUS.html\">CONTACT US</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#content5-0\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-0\">SERVICES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials4-0\">TESTIMONIALS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">ANATOMY</a><div class=\"dropdown open\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"index.html#features3-1\" data-toggle=\"dropdown-submenu\">ARTICLES</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Constipation</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Bloating.html\">Bloating</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Fibre</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#page9-content1-0\">STATISTICS</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"FAQ.html\">FAQ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"PRICING.html\">PRICING</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"CONTACTUS.html\">CONTACT US</a></li>"
         },
         {
           "_inherit": "content5",
@@ -3928,7 +4455,7 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.4",
+            "overlayOpacity": "0.1",
             "overlayColor": "#000000",
             "showTitle": true,
             "showCaption": false
@@ -4061,7 +4588,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>Address</strong><br>258 Dupont Street<br>Toronto, ON &nbsp;M5R 1V7<br><br><br>\n<strong>Contact</strong><br>Email: info@yellowbrickroad-healthyliving.com<br>\nPhone: 416.926.1101<br><br>",
+          "text1": "<strong>Address</strong><br>258 Dupont Street<br>Toronto, ON &nbsp;M5R 1V7<br><br><br>\n<strong>Contact</strong><br>Email: info@ybrtorontocolonics.ca<br>\nPhone: 416.926.1101<br><br>",
           "text2": "<strong>Session Times&nbsp;</strong><ul><li>Monday 9-8pm</li><li>Tuesday-Thursday 10-7pm</li><li>Friday 8-7pm</li><li>Saturday 9-7pm</li><li>Sunday Please Call to Inquire</li></ul>"
         }
       ]

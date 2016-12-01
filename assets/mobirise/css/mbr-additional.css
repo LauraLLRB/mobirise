@@ -417,6 +417,261 @@ h6,
 .mbr-gallery-filter li:hover {
   color: #7e9b9f;
 }
+.extCountdown1 .number,
+.extCountdown2 .number {
+  font-family: 'Montserrat', sans-serif;
+}
+.extCountdown1 .period,
+.extCountdown2 .period {
+  font-family: 'Lora', serif;
+}
+.extCountdown1 .dot,
+.extCountdown2 .dot {
+  font-family: 'Montserrat', sans-serif;
+}
+.features6 .feature-subtitle {
+  font-family: 'Lora', serif;
+}
+.features6 .feature-title {
+  font-family: 'Montserrat', sans-serif;
+}
+.features6 .description {
+  font-family: 'Raleway', sans-serif;
+}
+.count,
+.counter-title {
+  font-family: 'Montserrat', sans-serif;
+}
+.counter-subtitle {
+  font-family: 'Lora', serif;
+}
+.mbr-iconfont-counters1 {
+  color: #7e9b9f;
+}
+.extHeader1 .container h3,
+.extHeader2 .container h3,
+.extHeader3 .container h3,
+.extHeader5 .container h3,
+.extHeader6 .container h3,
+.extHeader7 .container h3,
+.extHeader8 .container h3,
+.extHeader9 .container h3,
+.extHeader10 .container h3,
+.extHeader12 .container h3,
+.extHeader13 .container h3,
+.extFeatures10 .container h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+.extHeader1 .container p,
+.extHeader2 .container p,
+.extHeader3 .container p,
+.extHeader5 .container p,
+.extHeader6 .container p,
+.extHeader7 .container p,
+.extHeader8 .container p,
+.extHeader9 .container p,
+.extHeader10 .container p,
+.extHeader12 .container p,
+.extHeader13 .container p,
+.extFeatures10 .container p {
+  font-family: 'Lora', serif;
+}
+.extHeader5 .container label {
+  font-family: 'Lora', serif;
+}
+.extHeader9 form p.form-subtitle {
+  font-family: 'Montserrat', sans-serif;
+}
+.extHeader11 .container span {
+  font-family: 'Montserrat', sans-serif;
+}
+.extHeader11 .container p.element {
+  font-family: 'Montserrat', sans-serif;
+}
+.extHeader11 .container p {
+  font-family: 'Lora', serif;
+}
+.extHeader12 h4,
+.extFeatures10 h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+.extHeader12 .subtitle,
+.extFeatures10 .subtitle {
+  font-family: 'Lora', serif;
+}
+.extHeader13 h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+.extHeader13 .number {
+  font-family: 'Montserrat', sans-serif;
+}
+.extHeader13 .period {
+  font-family: 'Lora', serif;
+}
+.extHeader13 .dot {
+  font-family: 'Montserrat', sans-serif;
+}
+.extFeatures .feature-title {
+  font-family: 'Montserrat', sans-serif;
+}
+.extFeatures .feature-subtitle {
+  font-family: 'Lora', serif;
+}
+.extFeatures .feature-text {
+  font-family: 'Raleway', sans-serif;
+}
+.extFeatures2 h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+.extFeatures3 .border-wrap {
+  border-color: #7e9b9f;
+}
+.extFeatures4 h4,
+.extFeatures6 h4,
+.extFeatures5 .card-title h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+.extFeatures4 h5,
+.extFeatures6 h5,
+.extFeatures5 .card-title h5 {
+  font-family: 'Lora', serif;
+}
+.extForm1 h4,
+.extForm2 h4,
+.extForm3 h4,
+.extForm4 h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+.extForm1 .subtitle,
+.extForm2 .subtitle,
+.extForm3 .subtitle,
+.extForm4 .subtitle {
+  font-family: 'Lora', serif;
+}
+.extForm2 .container h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+.extForm2 .container p {
+  font-family: 'Lora', serif;
+}
+.extPricingTable1 .bottom_line {
+  border-bottom-color: #7e9b9f;
+}
+.extPricingTable1 .mbr-price small {
+  font-family: 'Lora', serif;
+}
+.extPricingTable1 .mbr-plan-label {
+  background: #7e9b9f;
+}
+.extCounters2 h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+.extCounters2 h5 {
+  font-family: 'Lora', serif;
+}
+.extCounters3 .count {
+  font-family: 'Montserrat', sans-serif;
+}
+.extCounters3 .counter-title {
+  font-family: 'Montserrat', sans-serif;
+}
+.extCounters3 .counter-subtitle {
+  font-family: 'Lora', serif;
+}
+.extProgressBar .progress-primary[value]::-webkit-progress-value {
+  background-color: #7e9b9f;
+}
+.extProgressBar .progress-primary[value]::-moz-progress-bar {
+  background-color: #7e9b9f;
+}
+@media screen and (min-width: 0\0) {
+  .extProgressBar .progress-primary .progress-bar {
+    background-color: #7e9b9f;
+  }
+}
+.extProgressBar .title-wrap {
+  font-family: 'Lora', serif;
+}
+.extProgressBarRound .progress-radial .overlay {
+  font-family: 'Montserrat', sans-serif;
+}
+.extProgressBar4 .feature-title {
+  font-family: 'Montserrat', sans-serif;
+}
+.extProgressBar4 .feature-subtitle {
+  font-family: 'Lora', serif;
+}
+.extTabs1 ul.nav-tabs li a:hover,
+.extTabs2 ul.nav-tabs li a:hover {
+  color: #7e9b9f;
+}
+.extAccordion1 .panel-heading a {
+  font-family: 'Raleway', sans-serif;
+}
+.extAccordion1 .pseudoPlus,
+.extAccordion2 .pseudoPlus,
+.extToggle1 .pseudoPlus,
+.extAccordion1 .pseudoPlus:after,
+.extAccordion2 .pseudoPlus:after,
+.extToggle1 .pseudoPlus:after,
+.extAccordion1 .pseudoMinus,
+.extAccordion2 .pseudoMinus,
+.extToggle1 .pseudoMinus {
+  background-color: #7e9b9f;
+}
+.extAccordion2 .panel-heading a,
+.extAccordion3 .panel-heading a,
+.extToggle1 .panel-heading a {
+  font-family: 'Raleway', sans-serif;
+}
+.extProgressBar5 .progress-primary[value]::-webkit-progress-value {
+  background-color: #7e9b9f;
+}
+.extProgressBar5 .progress-primary[value]::-moz-progress-bar {
+  background-color: #7e9b9f;
+}
+@media screen and (min-width: 0\0) {
+  .extProgressBar5 .progress-primary .progress-bar {
+    background-color: #7e9b9f;
+  }
+}
+.extProgressBar5 .title-wrap {
+  font-family: 'Lora', serif;
+}
+.extMsg-box1 .container h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+.extMsg-box1 .container p {
+  font-family: 'Lora', serif;
+}
+.extMsg-box1 h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+.extMsg-box1 .subtitle {
+  font-family: 'Lora', serif;
+}
+.extMsg-box2 .container span,
+.extMsg-box3 .container span,
+.extMsg-box4 .container span {
+  font-family: 'Montserrat', sans-serif;
+}
+.extMsg-box2 .container p,
+.extMsg-box3 .container p,
+.extMsg-box4 .container p {
+  font-family: 'Lora', serif;
+}
+.extProgressBarRound .pie_progress__number {
+  font-family: 'Montserrat', sans-serif;
+}
+.extMenu1 span.icon a:hover {
+  color: #7e9b9f !important;
+}
+.extProgressBar .progress-primary[value]::-ms-fill {
+  color: #7e9b9f;
+}
+.extProgressBar5 .progress-primary[value]::-ms-fill {
+  color: #7e9b9f;
+}
 #ext_menu-0 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -490,6 +745,13 @@ h6,
 }
 #content8-0 .mbr-section-title {
   text-align: right;
+}
+#header3-1p .mbr-section-title,
+#header3-1p .mbr-section-subtitle {
+  text-align: center;
+}
+#extToggle1-1c H1 {
+  color: #232323;
 }
 #form2-0 .mbr-section-title {
   color: #fff;
@@ -719,6 +981,9 @@ h6,
 }
 #form1-0 .btn {
   font-size: 12px;
+}
+#form1-0 .mbr-section-title {
+  color: #232323;
 }
 #header3-0 .mbr-section-title,
 #header3-0 .mbr-section-subtitle {
@@ -1006,10 +1271,10 @@ h6,
   color: #fff;
 }
 #msg-box6-0 H3 {
-  color: #000000;
+  color: #232323;
 }
 #msg-box6-0 P {
-  color: #312f2f;
+  color: #232323;
 }
 #form2-0 .mbr-section-title {
   color: #fff;
@@ -1023,24 +1288,28 @@ h6,
 
 
 
-#slider-0 H2 {
-  font-size: 80px;
-}
-#slider-0 DIV {
-  font-size: 36px;
-}
 #content5-0 .mbr-section-title,
 #content5-0 p {
   color: #fff;
 }
 #content5-0 P {
-  color: #7c706b;
+  color: #232323;
   text-align: center;
 }
 #content5-0 .mbr-section-title {
-  color: #7c706b;
+  color: #232323;
   text-align: center;
   font-family: 'Roboto', sans-serif;
+}
+#extFeatures8-19 .feature-title,
+#extFeatures8-19 .description {
+  color: #232323;
+}
+#extFeatures8-19 .feature-subtitle {
+  color: #8c8c8c;
+}
+#features3-1 P {
+  color: #232323;
 }
 #ext_menu-0 .hide-buttons .nav-btn {
   display: none !important;
@@ -1111,10 +1380,10 @@ h6,
 #page9-content7-0 P {
   text-align: center;
 }
-#form2-0 .mbr-section-title {
+#msg-box2-1h .mbr-section-title {
   color: #fff;
 }
-#form2-0 .mbr-section-subtitle {
+#msg-box2-1h .mbr-section-subtitle {
   color: #a0a0a0;
 }
 #contacts2-0 STRONG {
@@ -1291,6 +1560,9 @@ h6,
 #header3-f .mbr-section-title,
 #header3-f .mbr-section-subtitle {
   text-align: center;
+}
+#extFeatures6-1e .card-img {
+  background-color: #7e9b9f !important;
 }
 #form2-c .mbr-section-title {
   color: #fff;
